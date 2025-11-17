@@ -102,7 +102,7 @@ void print_bst(BSTNode *root, FILE *fout)
     LineNode *cur = root->lines;
     while (cur)
     {
-        fprintf(fout, " %d", cur->line);
+        fprintf(fout, ", %d", cur->line);
         cur = cur->next;
     }
     fprintf(fout, "\n");
