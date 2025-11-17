@@ -165,7 +165,7 @@ int exists_in_bst(BSTNode *root, char *word)
 
 int main()
 {
-    FILE *ftext = fopen("alice30.txt", "r");
+    FILE *ftext = fopen("vanban.txt", "r");
     FILE *fstop = fopen("stopw.txt", "r");
     if (!ftext || !fstop)
     {
